@@ -1,0 +1,141 @@
+1)Date CurrentDate = new Date();
+
+     
+   DateFormat dateFormat = new SimpleDateFormat("dd MMMM yyyy hh:mm a");
+
+    
+   System.out.println("\n Ticket Number "+ ticketNumber + " logged Successfully at " + dateFormat.format(CurrentDate));
+
+2)How to write description=/**
+
+    
+ * method name :
+
+   
+  * retrun type : bit retuen
+
+    
+ * author : capgemini
+
+    
+ * date :  23-12-2012
+
+    
+ * argunemtn : this
+
+     */
+
+
+3)Iteration method=
+Map<Integer,Employee> emap=new HashMap<Integer,Employee>();
+
+   
+      *
+
+         * Employee emp=new Employee();
+
+     
+    * emp.setId(1);
+
+       
+  * emp.setName("Roja");
+
+        
+ * emp.setSalary(25000);
+
+         *
+
+     
+    * emap.put(emp.getId(),emp);
+
+         *
+
+         *
+
+         *
+
+      
+   * Employee emp1=new Employee();
+
+      
+   * emp1.setId(2);
+
+         
+* emp1.setName("Jhansi");
+
+       
+  * emp.setSalary(25000);
+
+         *
+
+      
+   * emap.put(emp.getId(),emp1);
+
+         *
+
+         *
+
+    
+     * for(Object o:emap.entrySet()){
+
+         *
+
+         * 
+    syso(o.getKey());
+
+         * syso(o.getValue());
+
+         * }
+
+         *
+
+     
+    *
+
+         * for(Employe e:emap.Values()){
+
+         *
+
+         *
+ syso(e);
+
+         * }
+
+   
+      *
+
+         *
+
+         * 
+for(int i:emap.keySet()){
+
+         *
+
+      
+   * syso(i);
+
+       
+  * emap.get(i);
+
+         *
+
+         * }
+
+         *
+
+         *
+
+         *
+
+         *
+
+       
+  * Employee e2=emap.get(3);
+
+         *
+
+         *
+
+         *
+
+         */
